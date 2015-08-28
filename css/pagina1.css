@@ -40,7 +40,7 @@ a:link{
 a:visited{
 	color: #5b808e;
 }
-a:hover{
+a:hover{       /*aqui a ordem das regras altera oresultado*/
 	color:#0eb9f8;
 	text-decoration: underline;
 }
@@ -63,6 +63,7 @@ acronym{
 
 #corpo{
 	margin-top: 21.5em;
+	position: relative;
 }
 #corpo div{
 	padding-top: 2.0em;
@@ -96,7 +97,7 @@ acronym{
 	background-attachment: fixed;
 }
 #meio p{
-	font-weight:500;
+font-weight:500; /* Para que o texto não fique muito apagado*/
 }
 #meio a:visited{
 	color: #224855;
@@ -104,4 +105,115 @@ acronym{
 #meio a:hover{
 	color:#0eb9f8;
 	text-decoration: underline;
+}
+#rodape, #rodape2{
+	float:left;
+	width: 100%;
+}
+#rodape{
+	height:12.0em;
+	background-color: rgba(39,91,185,0.5);
+	background-image: url(imagens/planta.png);
+	background-attachment: fixed;
+}
+#rodape p{
+	font-family: "times new roman", serif;
+	/*font-size:1.9em;*/
+	font-style: italic;
+}
+#rodape a{
+	color:#cfeffb;
+	font-style:normal;
+}
+#rodape2{
+	background-color: rgb(39,91,185);
+}
+#rodape2 p{
+	text-align: center;
+}
+#rodape2 a{
+	margin-left:12%;
+	margin-top:1.0em;
+	margin-bottom:1.0em;
+	text-indent: -666em;
+	display: inline-block;
+}
+#rodape2 a:last-child{
+	margin-right: 10%;
+}
+#ico{
+	background-image: url(imagens/html2.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico:hover{
+	background-image: url(imagens/html1.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico2{
+	background-image: url(imagens/css1.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico2:hover{
+	background-image: url(imagens/css2.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico3{
+	background-image: url(imagens/cc.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico3:hover{
+	background-image: url(imagens/cc2.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	background-color:#cfeffb;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico4{
+	background-image: url(imagens/ally1.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico4:hover{
+	background-image: url(imagens/ally2.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	background-color:#cfeffb;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico5{
+	background-image: url(imagens/github1.png);
+	background-size:3.0em;
+	background-repeat: no-repeat;
+	height: 3.0em;
+	width: 3.0em;
+}
+#ico5:hover{
+	background-image: url(imagens/github2.png);
+	background-size:3.1em;
+	background-repeat: no-repeat;
+	background-color:#cfeffb;
+	height: 3.0em;
+	width: 3.0em;
+}
+#menu{
+	clear: both;
 }
