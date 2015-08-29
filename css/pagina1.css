@@ -40,7 +40,7 @@ a:link{
 a:visited{
 	color: #5b808e;
 }
-a:hover{       /*aqui a ordem das regras altera oresultado*/
+a:hover{       /*aqui a ordem das regras altera o resultado*/
 	color:#0eb9f8;
 	text-decoration: underline;
 }
@@ -106,6 +106,88 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	color:#0eb9f8;
 	text-decoration: underline;
 }
+
+          /*Trabalhando com o menu*/
+
+#menu{
+	clear: both;
+	width: 100%;
+}
+#menu h3{        /*tirando os titulos dos menus*/
+	display: none;
+}
+#menu ul{
+	padding; 0;
+	margin:0;
+}
+#menu li{
+	margin: 0;
+	display:inline-block;
+	float:left;
+	width:50%;
+	padding-top:3.0em;
+	padding-bottom:3.0em;
+	border-top: solid 1px;
+}
+
+       /*Trabalhando o menu do cabeçalho*/
+
+#archives{       /*Levando o div para o cabeçalho*/
+	width:100%;
+	position:absolute;
+	top: 14.4em;
+	z-index: 90;
+	background-color: rgba(39,91,185,0.2);
+}
+
+#archives li{
+	padding:0;
+	height:5.02em;
+	border-top:none;
+	text-align: center;
+}
+#archives ul li:first-child{
+	display: inline-block;
+	width: 10%;
+	float: right;
+}
+#archives ul li span a{
+	text-indent: -666em;
+	background-image: url(imagens/next1.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 2.0em;
+}
+#archives ul li:last-child{
+	display: inline-block;
+	width: 89.9%;
+	float:left;
+}
+#archives ul li a{         /*expandindo o link*/
+	display: block;
+	width: 100%;
+	height: 2.6em;
+	padding-top: 1.0em;
+	
+	font-weight: lighter; /*alteraçoes na fonte do link*/
+	font-size: 1.3em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #cfeffb;
+}	
+#archives ul li a:hover{
+	color:#fff;
+	background-color: rgba(39,91,185,0.8);
+}
+#archives ul li span a:hover{
+	background-image: url(imagens/next2.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: 2.0em;
+}
+
+         /*Trabalhando com os dois rodapés*/
+
 #rodape, #rodape2{
 	float:left;
 	width: 100%;
@@ -132,15 +214,21 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	text-align: center;
 }
 #rodape2 a{
-	margin-left:12%;
-	margin-top:1.0em;
-	margin-bottom:1.0em;
+	margin-left:10%;
+	margin-top:0.5em;
+	margin-bottom: 0.5em;
 	text-indent: -666em;
 	display: inline-block;
 }
 #rodape2 a:last-child{
 	margin-right: 10%;
 }
+
+/*Trabalhando com os ícones*/
+
+/*Os icones poderiam ter sido melhor trabalhados, mas estão funcianando assim, 
+ futuramante vejo uma alternativa melhor*/
+
 #ico{
 	background-image: url(imagens/html2.png);
 	background-size:3.0em;
@@ -213,7 +301,4 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	background-color:#cfeffb;
 	height: 3.0em;
 	width: 3.0em;
-}
-#menu{
-	clear: both;
 }
