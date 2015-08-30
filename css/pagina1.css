@@ -124,14 +124,14 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 }
 #menu li{
 	float:left;
-	width:50%;
-	padding-top:1.9em;     /*a resposta está no texto*/
+	width:50%;   /*permitindo que eles sempre fique um do lado do outro*/
+	padding-top:1.9em;     
 	padding-bottom:1.9em;
 	border-top: solid 1px #C7DBE2;
 }
 #design li span, #resources li span{
 	display:inline-block;
-	padding-left: 20%;
+	padding-left: 20%; /*Método para manter os conteudo afastado da borda*/
 }
 #design li{
 	background-color: #cfeffb;
@@ -148,7 +148,7 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
 	font-weight: lighter;
-	font-size: 1.2em;
+	font-size: 1.0em;
 }
 #resources li:hover{
 	background-color: rgba(39,91,185,0.2);
@@ -255,12 +255,18 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	background-attachment: fixed;
 }
 #rodape p{
-	font-family: "times new roman", serif;
-	/*font-size:1.9em;*/
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:1.9em;
 	font-style: italic;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-left: 2.0em;
+	padding-right: 2.0em;
+	padding-bottom:0.5em
+	color: #cfeffb;
 }
 #rodape a{
-	color:#cfeffb;
+	color:#fff;
 	font-style:normal;
 }
 #rodape2{
@@ -358,3 +364,4 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	height: 3.0em;
 	width: 3.0em;
 }
+
