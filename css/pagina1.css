@@ -118,23 +118,55 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	display: none;
 }
 #menu ul{
-	list-style-type: none;
-	padding; 0;
+	list-style-type:none;
 	margin-left:0;
-	padding-left: 0;
+	padding-left: 2px;
 }
 #menu li{
 	float:left;
 	width:50%;
-	padding-top:2.7em;     /*a resposta está no texto*/
-	padding-bottom:2.7em;
-	border-top: solid 1px;
+	padding-top:2.0em;     /*a resposta está no texto*/
+	padding-bottom:2.0em;
+	border-top: solid 1px #C7DBE2;
+}
+#design li span, #resources li span{
+	display:inline-block;
+	padding-left: 20%;
+}
+#design li{
+	background-color: #cfeffb;
+}
+#design li:hover{
+	background-color: #E8F9FF;
+}
+
+#resources li{
+	background-color: rgba(39,91,185,0.5); 
+	background-image: url(imagens/planta.png);
+	background-attachment: fixed;
+	
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 1.2em;
+}
+#resources #ultimo{
+	width:100%;
+}
+#resources #ultimo span{
+	padding-left: 10%;
+}
+#menu li a:hover{
+	text-decoration: none;
 }
 
 .obra{
 	text-transform: uppercase;
 	font-weight: lighter;
 	display: block;
+	font-size: 1.2em;
+}
+.obra:hover{
+	
 }
 
        /*Trabalhando o menu do cabeçalho*/
@@ -201,7 +233,7 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	width: 100%;
 }
 #rodape{
-	height:12.0em;
+	height:14.0em;
 	background-color: rgba(39,91,185,0.5);
 	background-image: url(imagens/planta.png);
 	background-attachment: fixed;
@@ -222,9 +254,9 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	text-align: center;
 }
 #rodape2 a{
-	margin-left:10%;
-	margin-top:0.5em;
-	margin-bottom: 0.5em;
+	margin-left:5%;
+	margin-top:2.2em;
+	margin-bottom: 2.2em;
 	text-indent: -666em;
 	display: inline-block;
 }
