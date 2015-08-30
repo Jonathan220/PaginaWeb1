@@ -91,7 +91,7 @@ acronym{
 	text-align: center;
 }
 #meio{
-	background-color: rgba(39,91,185,0.5); 
+	background-color: rgba(39,91,185,0.4); 
 	background-image: url(imagens/arvore2.png);/*imagem melhor*/
 	background-size: cover;
 	background-attachment: fixed;
@@ -125,8 +125,8 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 #menu li{
 	float:left;
 	width:50%;
-	padding-top:2.0em;     /*a resposta está no texto*/
-	padding-bottom:2.0em;
+	padding-top:1.9em;     /*a resposta está no texto*/
+	padding-bottom:1.9em;
 	border-top: solid 1px #C7DBE2;
 }
 #design li span, #resources li span{
@@ -141,13 +141,23 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 }
 
 #resources li{
-	background-color: rgba(39,91,185,0.5); 
+	background-color: rgba(39,91,185,0.4); 
 	background-image: url(imagens/planta.png);
 	background-attachment: fixed;
 	
+	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
 	font-weight: lighter;
 	font-size: 1.2em;
+}
+#resources li:hover{
+	background-color: rgba(39,91,185,0.2);
+}
+#resources a{
+	color:#4C646D;
+}
+#resources a:hover{
+	color:#0eb9f8;
 }
 #resources #ultimo{
 	width:100%;
@@ -160,14 +170,20 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 }
 
 .obra{
+	font-family: 'Julius Sans One', sans-serif;
 	text-transform: uppercase;
 	font-weight: lighter;
 	display: block;
 	font-size: 1.2em;
 }
-.obra:hover{
-	
+#design .autor{
+	color: #4C646D;
+	font-family: "times new roman", serif;
 }
+#design .autor:hover{
+	color:#0eb9f8;
+}
+
 
        /*Trabalhando o menu do cabeçalho*/
 
@@ -234,7 +250,7 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 }
 #rodape{
 	height:14.0em;
-	background-color: rgba(39,91,185,0.5);
+	background-color: rgba(39,91,185,0.4);
 	background-image: url(imagens/planta.png);
 	background-attachment: fixed;
 }
