@@ -87,7 +87,7 @@ acronym{
 	background-size: cover;
 	width: 100%;
 	height: 19.3em;
-	background-color: transparent #06536f;
+	background-color: #06536f;
 	text-align: center;
 }
 #meio{
@@ -262,7 +262,7 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	padding-top: 0.5em;
 	padding-left: 2.0em;
 	padding-right: 2.0em;
-	padding-bottom:0.5em
+	padding-bottom:0.5em;
 	color: #cfeffb;
 }
 #rodape a{
@@ -364,4 +364,7 @@ font-weight:500; /* Para que o texto não fique muito apagado*/
 	height: 3.0em;
 	width: 3.0em;
 }
-
+#icones{
+	padding-left: 10px;
+}
+#xv{ float: left }
