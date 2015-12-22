@@ -4,7 +4,7 @@ Página Web 1
 Neste repositório se encontram arquivos de HTML e códigos de programação construídos com o único propósito de testar código e treinar o pouco que aprendi da linguagem. Além de uma breve demonstração da maneira como programo.
 Com o tempo este projeto poderá sofrer alterações ou não.
 ***
-Este repositório armazena um dos primeiros projetos por mim implementado, que é nada menos que uma página testar minha capacidade de codificação XHTML.
+Este repositório armazena um dos primeiros projetos por mim implementado, que é nada menos que uma página para testar minha capacidade de codificação XHTML.
 
 Me basei visualmente na página de *Dave Shea*  *Verde Moderna* no site [www.csszengarden.com](http://www.csszengarden.com).
 
